@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="com.petstore.patstoreinfo.PetCRUDTest" skipped="0" tests="4" time="7.49" timestamp="2023-01-03T15:51:49.090Z[Europe/London]"><testcase classname="com.petstore.patstoreinfo.PetCRUDTest" name="Test001"/><testcase classname="com.petstore.patstoreinfo.PetCRUDTest" name="Test002"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;405&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;405&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;405&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+com.petstore.patstoreinfo.PetSteps.getPetById(PetSteps.java:65)&#13;
+com.petstore.patstoreinfo.PetCRUDTest.test002(PetCRUDTest.java:54)&#13;
+</system-err></testcase><testcase classname="com.petstore.patstoreinfo.PetCRUDTest" name="Test003"/><testcase classname="com.petstore.patstoreinfo.PetCRUDTest" name="Test004"/></testsuite>

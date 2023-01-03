@@ -1,0 +1,4 @@
+com\petstore\patstoreinfo\UserCRUDTest.class
+com\petstore\testbase\TestBase.class
+com\petstore\patstoreinfo\PetCRUDTest.class
+com\petstore\AppTest.class
